@@ -72,10 +72,7 @@ textarea {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
+    max-width: 1200px;
 }
 
 .btn { 
@@ -376,6 +373,10 @@ textarea {
 /* Hero section */
 
 #hero {
+    width: 100%;
+}
+
+.swiper-wrapper {
     width: 100%;
 }
 
@@ -1103,10 +1104,19 @@ address.map-address::before {
 }
 
 .pay-method-item img {
+    margin: 0 auto;
+    display: block;
     width: 50%;
+    height: auto;
+}
+
+#bank-svg {
+    height: 100px;
 }
 
 .pay-methods .pay-method-item i {
+    display: block;
+    margin: 0 auto;
     color: var(--header-color);
     display: block;
     font-size: 6rem;
@@ -1244,7 +1254,7 @@ address.map-address::before {
     color: var(--light-color);
 }
 
-.news-section .section-content .cards .card .article a {
+.news-section .section-content .cards .card .article .blog-view a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 15px;
@@ -1254,6 +1264,10 @@ address.map-address::before {
     background-color: var(--secondary-color);
     position: absolute;
     right: 0;
+}
+
+.news-section .section-content .cards .card .article .blog-view a:hover {
+    background-color: #E56024;
 }
 
 .news-section .section-content .cards .card .posted-date p {

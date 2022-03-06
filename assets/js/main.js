@@ -240,7 +240,7 @@ geo.addEventListener('click', async function(e) {
              <div class="container-center">
                  <ul class="pay-methods">
                     <li class="pay-method-item">
-                        <i class="fas fa-money-check-alt"></i>
+                        <img src="assets/img/bank.svg" id="bank-svg">
                         <span>На расчетный счет организации от физических и юридических лиц</span>
                     </li>
                     <li class="pay-method-item">
@@ -249,17 +249,12 @@ geo.addEventListener('click', async function(e) {
                     </li>
                  </ul>
             </div> <!-- Container End -->
-
-            <div class="container-center">
                 <div class="section-title">
                     <h1>Доставка</h1>
                     <span>Информация о доставке</span>                    <span class="danger">Важно!</span>
                     Возможна оплата по факту предоставления фото отправленных запчастей в транспортной компании с предоставлением накладной (увы, все мы живем в это время)
                 </p>
-            </div>
   
-            
-            <div class="container-center">
                 <div class="section-title">
                     <h1>Гарантии</h1>
                     <span>Информация о гарантиях</span>
@@ -274,18 +269,16 @@ geo.addEventListener('click', async function(e) {
                             </ul>
                         <li>Кузовные детали - <span class="danger">2 недели</span></li>
                     </ul>
-                </p>
-            </div>         
+                </p>   
          </section> 
              `,
              showCloseButton: true,
              showConfirmButton: false,
              backdrop: true,
-             width: 1000,
+             width: 1500,
              showCloseButton: true,
              showConfirmButton: false,
              backdrop: true,
-             width: 1000,
          });
      })
  }
